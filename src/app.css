@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-text-base: rgb(255, 255, 255); 
+  --color-bg-primary: gb(41, 37, 36); 
+  --color-secondary: rgb(255, 255, 255); 
+  --color-tertiary: rgb(185, 185, 185); 
+}
+
+html[data-theme='default'] {
+  --color-text-base: rgb(255, 255, 255); 
+  --color-bg-primary: gb(41, 37, 36); 
+  --color-secondary: rgb(255, 255, 255); 
+  --color-tertiary: rgb(185, 185, 185); 
+}
+
+html[data-theme='upuntu'] {
+  --color-text-base: rgb(255, 255, 255);
+  --color-bg-primary: rgb(37, 19, 56); 
+  --color-secondary: rgb(255, 91, 42);
+  --color-tertiary: rgb(169, 169, 169); 
+}
+
+html[data-theme='matrix'] {
+  --color-text-base: #00ff66;
+  --color-bg-primary: #000000;
+  --color-secondary: #00cc55;
+  --color-tertiary: #00cc55;
+}
+
+html[data-theme='shark'] {
+  --color-text-base: rgb(255, 255, 255);
+  --color-bg-primary: rgb(4, 31, 34);
+  --color-secondary: rgb(0, 180, 216);
+  --color-tertiary: rgb(212, 241, 244);
+}
+
+html[data-theme="synthwave"] {
+  --color-text-base: rgb(255, 255, 255); 
+  --color-bg-primary: rgb(20, 20, 40); 
+  --color-secondary: rgb(255, 89, 105); 
+  --color-tertiary: rgb(0, 255, 255); 
+}
+
+html[data-theme='cottoncandy'] {
+  --color-text-base: rgb(240, 240, 240); 
+  --color-bg-primary: rgb(34, 34, 51); 
+  --color-secondary: rgb(255, 105, 180); 
+  --color-tertiary: rgb(204, 153, 255); 
+}
+
+html[data-theme='violent'] {
+  --color-text-base: rgb(255, 94, 94); 
+  --color-bg-primary: rgb(0, 0, 0); 
+  --color-secondary: rgb(224, 0, 0); 
+  --color-tertiary: rgb(187, 31, 31); 
+}
