@@ -7,51 +7,72 @@
   --color-tertiary: rgb(185, 185, 185); 
 }
 
-html[data-theme='default'] {
+[data-theme='default'] {
   --color-text-base: rgb(255, 255, 255); 
   --color-bg-primary: gb(41, 37, 36); 
   --color-secondary: rgb(255, 255, 255); 
   --color-tertiary: rgb(185, 185, 185); 
 }
 
-html[data-theme='upuntu'] {
-  --color-text-base: rgb(255, 255, 255);
-  --color-bg-primary: rgb(37, 19, 56); 
-  --color-secondary: rgb(255, 91, 42);
-  --color-tertiary: rgb(169, 169, 169); 
+[data-theme='arctic'] {
+  --color-text-base: rgb(230, 245, 255);     /* snow white with blue tint */
+  --color-bg-primary: rgb(5, 10, 15);        /* cold black */
+  --color-secondary: rgb(100, 220, 255);     /* cold cyan */
+  --color-tertiary: rgb(50, 90, 110);        /* arctic steel */
 }
 
-html[data-theme='matrix'] {
-  --color-text-base: #00ff66;
-  --color-bg-primary: #000000;
-  --color-secondary: #00cc55;
-  --color-tertiary: #00cc55;
+[data-theme='toxic'] {
+  --color-text-base: rgb(170, 255, 190);     /* soft neon green */
+  --color-bg-primary: rgb(0, 10, 0);         /* near-black green */
+  --color-secondary: rgb(60, 255, 120);      /* pure neon green */
+  --color-tertiary: rgb(20, 80, 40);         /* dark emerald */
 }
 
-html[data-theme='shark'] {
-  --color-text-base: rgb(255, 255, 255);
-  --color-bg-primary: rgb(4, 31, 34);
-  --color-secondary: rgb(0, 180, 216);
-  --color-tertiary: rgb(212, 241, 244);
-}
-
-html[data-theme="synthwave"] {
+[data-theme="synthwave"] {
   --color-text-base: rgb(255, 255, 255); 
   --color-bg-primary: rgb(20, 20, 40); 
   --color-secondary: rgb(255, 89, 105); 
   --color-tertiary: rgb(0, 255, 255); 
 }
 
-html[data-theme='cottoncandy'] {
-  --color-text-base: rgb(240, 240, 240); 
-  --color-bg-primary: rgb(34, 34, 51); 
-  --color-secondary: rgb(255, 105, 180); 
-  --color-tertiary: rgb(204, 153, 255); 
+[data-theme='forest'] {
+  --color-text-base: rgb(200, 255, 210);     /* gentle mint */
+  --color-bg-primary: rgb(5, 15, 8);         /* deep forest */
+  --color-secondary: rgb(60, 140, 80);       /* fern green */
+  --color-tertiary: rgb(30, 60, 40);         /* moss */
 }
 
-html[data-theme='violent'] {
-  --color-text-base: rgb(255, 94, 94); 
-  --color-bg-primary: rgb(0, 0, 0); 
-  --color-secondary: rgb(224, 0, 0); 
-  --color-tertiary: rgb(187, 31, 31); 
+[data-theme='cosmic'] {
+  --color-text-base: rgb(180, 170, 255);     /* soft lavender */
+  --color-bg-primary: rgb(10, 8, 20);        /* deep space */
+  --color-secondary: rgb(104, 90, 255);      /* neon violet */
+  --color-tertiary: rgb(50, 46, 120);        /* muted indigo */
+}
+
+[data-theme='amber'] {
+  --color-text-base: rgb(255, 220, 150);     /* amber glow */
+  --color-bg-primary: rgb(10, 5, 0);         /* crt black */
+  --color-secondary: rgb(255, 160, 40);      /* bright amber */
+  --color-tertiary: rgb(140, 80, 20);        /* dark amber mix */
+}
+
+[data-theme='coffee'] {
+  --color-text-base: rgb(240, 230, 215);     /* cream */
+  --color-bg-primary: rgb(20, 15, 10);       /* espresso */
+  --color-secondary: rgb(150, 110, 80);      /* mocha */
+  --color-tertiary: rgb(90, 60, 45);         /* dark roast */
+}
+
+[data-theme='abyss'] {
+  --color-text-base: rgb(185, 215, 255);     /* pale cool blue */
+  --color-bg-primary: rgb(2, 5, 20);         /* abyssal navy */
+  --color-secondary: rgb(70, 120, 220);      /* royal blue */
+  --color-tertiary: rgb(30, 60, 110);        /* steel blue */
+}
+
+[data-theme='cyberpunk'] {
+  --color-text-base: rgb(255, 185, 255);     /* pastel magenta */
+  --color-bg-primary: rgb(8, 0, 16);         /* deep noir purple */
+  --color-secondary: rgb(255, 80, 200);      /* neon magenta */
+  --color-tertiary: rgb(120, 30, 100);       /* plum */
 }
