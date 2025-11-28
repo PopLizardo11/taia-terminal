@@ -14,39 +14,11 @@
   --color-tertiary: rgb(185, 185, 185); 
 }
 
-[data-theme='arctic'] {
-  --color-text-base: rgb(230, 245, 255);     /* snow white with blue tint */
-  --color-bg-primary: rgb(5, 10, 15);        /* cold black */
-  --color-secondary: rgb(100, 220, 255);     /* cold cyan */
-  --color-tertiary: rgb(50, 90, 110);        /* arctic steel */
-}
-
-[data-theme='toxic'] {
-  --color-text-base: rgb(170, 255, 190);     /* soft neon green */
-  --color-bg-primary: rgb(0, 10, 0);         /* near-black green */
-  --color-secondary: rgb(60, 255, 120);      /* pure neon green */
-  --color-tertiary: rgb(20, 80, 40);         /* dark emerald */
-}
-
-[data-theme="synthwave"] {
-  --color-text-base: rgb(255, 255, 255); 
-  --color-bg-primary: rgb(20, 20, 40); 
-  --color-secondary: rgb(255, 89, 105); 
-  --color-tertiary: rgb(0, 255, 255); 
-}
-
-[data-theme='forest'] {
-  --color-text-base: rgb(200, 255, 210);     /* gentle mint */
-  --color-bg-primary: rgb(5, 15, 8);         /* deep forest */
-  --color-secondary: rgb(60, 140, 80);       /* fern green */
-  --color-tertiary: rgb(30, 60, 40);         /* moss */
-}
-
-[data-theme='cosmic'] {
-  --color-text-base: rgb(180, 170, 255);     /* soft lavender */
-  --color-bg-primary: rgb(10, 8, 20);        /* deep space */
-  --color-secondary: rgb(104, 90, 255);      /* neon violet */
-  --color-tertiary: rgb(50, 46, 120);        /* muted indigo */
+[data-theme='abyss'] {
+  --color-text-base: rgb(185, 215, 255);     /* pale cool blue */
+  --color-bg-primary: rgb(2, 5, 20);         /* abyssal navy */
+  --color-secondary: rgb(70, 120, 220);      /* royal blue */
+  --color-tertiary: rgb(30, 60, 110);        /* steel blue */
 }
 
 [data-theme='amber'] {
@@ -56,6 +28,13 @@
   --color-tertiary: rgb(140, 80, 20);        /* dark amber mix */
 }
 
+[data-theme='arctic'] {
+  --color-text-base: rgb(230, 245, 255);     /* snow white with blue tint */
+  --color-bg-primary: rgb(5, 10, 15);        /* cold black */
+  --color-secondary: rgb(100, 220, 255);     /* cold cyan */
+  --color-tertiary: rgb(50, 90, 110);        /* arctic steel */
+}
+
 [data-theme='coffee'] {
   --color-text-base: rgb(240, 230, 215);     /* cream */
   --color-bg-primary: rgb(20, 15, 10);       /* espresso */
@@ -63,11 +42,11 @@
   --color-tertiary: rgb(90, 60, 45);         /* dark roast */
 }
 
-[data-theme='abyss'] {
-  --color-text-base: rgb(185, 215, 255);     /* pale cool blue */
-  --color-bg-primary: rgb(2, 5, 20);         /* abyssal navy */
-  --color-secondary: rgb(70, 120, 220);      /* royal blue */
-  --color-tertiary: rgb(30, 60, 110);        /* steel blue */
+[data-theme='cosmic'] {
+  --color-text-base: rgb(180, 170, 255);     /* soft lavender */
+  --color-bg-primary: rgb(10, 8, 20);        /* deep space */
+  --color-secondary: rgb(104, 90, 255);      /* neon violet */
+  --color-tertiary: rgb(50, 46, 120);        /* muted indigo */
 }
 
 [data-theme='cyberpunk'] {
@@ -75,4 +54,25 @@
   --color-bg-primary: rgb(8, 0, 16);         /* deep noir purple */
   --color-secondary: rgb(255, 80, 200);      /* neon magenta */
   --color-tertiary: rgb(120, 30, 100);       /* plum */
+}
+
+[data-theme='forest'] {
+  --color-text-base: rgb(200, 255, 210);     /* gentle mint */
+  --color-bg-primary: rgb(5, 15, 8);         /* deep forest */
+  --color-secondary: rgb(60, 140, 80);       /* fern green */
+  --color-tertiary: rgb(30, 60, 40);         /* moss */
+}
+
+[data-theme="synthwave"] {
+  --color-text-base: rgb(255, 255, 255); 
+  --color-bg-primary: rgb(20, 20, 40); 
+  --color-secondary: rgb(255, 89, 105); 
+  --color-tertiary: rgb(0, 255, 255); 
+}
+
+[data-theme='toxic'] {
+  --color-text-base: rgb(170, 255, 190);     /* soft neon green */
+  --color-bg-primary: rgb(0, 10, 0);         /* near-black green */
+  --color-secondary: rgb(60, 255, 120);      /* pure neon green */
+  --color-tertiary: rgb(20, 80, 40);         /* dark emerald */
 }
