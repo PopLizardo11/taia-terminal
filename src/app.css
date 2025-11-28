@@ -9,7 +9,7 @@
 
 [data-theme='default'] {
   --color-text-base: rgb(255, 255, 255); 
-  --color-bg-primary: gb(41, 37, 36); 
+  --color-bg-primary: rgb(41, 37, 36); 
   --color-secondary: rgb(255, 255, 255); 
   --color-tertiary: rgb(185, 185, 185); 
 }
