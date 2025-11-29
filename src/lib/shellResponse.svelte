@@ -48,7 +48,8 @@ Contact:
 #    ██║██║ ╚████║    ██║  ██║██║    ██║  ██║██║  ██║   ██║    
 #    ╚═╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝     v1.0.0
 
-Type 'help' to see list of available commands.</pre>
+Type 'help' to see list of available commands.
+Type 'next' to proceed through the collection.</pre>
     {:else if command === "exit"}
         <pre>please close the tab window to exit</pre>
     {:else if command === "date"}
