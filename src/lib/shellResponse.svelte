@@ -53,6 +53,16 @@ Type 'help' to see list of available commands.</pre>
         <pre>please close the tab window to exit</pre>
     {:else if command === "date"}
         <pre>{new Date()}</pre>
+    {:else if command === "theme"}
+        <pre>
+Usage: theme [args]
+  ls: list all available themes
+  [theme]: set your theme of choice from the theme list
+
+[Examples]:
+  theme ls
+  theme cyberpunk 
+        </pre>
     {:else if command === "about"}
         <pre>
     ████████╗██╗  ██╗███████╗     █████╗ ██████╗ ████████╗    
