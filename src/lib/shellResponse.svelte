@@ -135,5 +135,7 @@ dolor. Donec quis massa scelerisque, porta est ut, varius lacus. Vestibulum ut m
 mauris semper ullamcorper rhoncus non eros. Sed semper sapien eu orci fringilla sodales. Sed euismod metus nec nulla
 tincidunt imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 </p>
+{:else}
+<p>{command}: command not found</p>
     {/if}
 </div>
