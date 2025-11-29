@@ -1,5 +1,6 @@
 <script lang="ts">
     let { command } = $props()
+    let themes: readonly string[] = ["default", "abyss", "amber", "arctic", "coffee", "cosmic", "cyberpunk", "forest", "synthwave", "toxic"];
 </script>
 <div class="font-mono antialised" style="color:  var(--color-text-base)">
     {#if command === "help"}
@@ -11,7 +12,6 @@ System:
   clear
   exit
   date
-  banner
 
 Navigation:
   next
@@ -61,8 +61,21 @@ Usage: theme [args]
 
 [Examples]:
   theme ls
-  theme cyberpunk 
-        </pre>
+  theme cyberpunk </pre>
+  {:else if command === "theme ls"}
+        <pre>Theme list:
+- default 
+- abyss
+- amber
+- arctic
+- coffee 
+- cosmic 
+- cyberpunk
+- forest
+- synthwave
+- toxic</pre>
+  {:else if themes.includes(command.split(" ")[1])}
+        <pre>Theme successfully changed to {command.split(" ")[1]}</pre>
     {:else if command === "about"}
         <pre>
     ████████╗██╗  ██╗███████╗     █████╗ ██████╗ ████████╗    
