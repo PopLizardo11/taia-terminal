@@ -51,6 +51,8 @@ Contact:
 Type 'help' to see list of available commands.</pre>
     {:else if command === "exit"}
         <pre>please close the tab window to exit</pre>
+    {:else if command === "date"}
+        <pre>{new Date()}</pre>
     {:else if command === "about"}
         <pre>
     ████████╗██╗  ██╗███████╗     █████╗ ██████╗ ████████╗    
