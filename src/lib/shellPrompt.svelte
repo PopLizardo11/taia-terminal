@@ -1,7 +1,7 @@
 <script lang="ts">
     let input: any;
     let name: string = $state("guest");
-    let { termBlocks = $bindable(), command = $bindable(), isDone = $bindable() } = $props();
+    let { termBlocks = $bindable(), command = $bindable(), isDone = $bindable(), onThemeChange} = $props();
 
     function setFocus() {
         input.focus();
@@ -11,14 +11,21 @@
         input.style.width = (input.value.length + 1) + "ch";
     }
 
-    let themes: readonly string[] = ["default", "abyss", "amber", "arctic", "coffee", "cosmic", "cyberpunk", "forest", "synthwave", "toxic"];
     let commands: readonly string[] = ["help", "clear", "exit", "date", "banner", "next", "prev", "all", "theme", "repo", "about", "refs", ];
+    let themes: readonly string[] = ["default", "abyss", "amber", "arctic", "coffee", "cosmic", "cyberpunk", "forest", "synthwave", "toxic"];
 
     function callCommand(curr: any) {
         let text = curr.value.trim();
+        let textArr = text.split(" ").filter((word: string) => word !== "");
+        text = textArr.join(" ");
+        if (textArr[0] === "theme" && textArr.length == 2) {
+            if (textArr[1] !== "ls" && themes.includes(textArr[1])) {
+                onThemeChange(textArr[1])
+            }
+        }
         termBlocks.push({type: "response", command: text});
-        isDone = true
-        termBlocks.push({type: "prompt", command: "", isDone:false})
+        isDone = true;
+        termBlocks.push({type: "prompt", command: "", isDone:false});
     }
 </script>
 
