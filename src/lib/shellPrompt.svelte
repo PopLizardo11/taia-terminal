@@ -18,6 +18,11 @@
         let text = curr.value.trim();
         let textArr = text.split(" ").filter((word: string) => word !== "");
         text = textArr.join(" ");
+        if (text === "clear") {
+            termBlocks = [{isDone: false}] // this is a weird bug (only autofocus when there is an isDone:false)
+            termBlocks.push = termBlocks.push({type: "prompt", command: "", isDone:false});
+            return
+        }
         if (textArr[0] === "theme" && textArr.length == 2) {
             if (textArr[1] !== "ls" && themes.includes(textArr[1])) {
                 onThemeChange(textArr[1])
