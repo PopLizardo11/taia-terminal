@@ -1,5 +1,5 @@
 <script lang="ts">
-    let { command } = $props()
+    let { command, collProg = $bindable() } = $props()
     let themes: readonly string[] = ["default", "abyss", "amber", "arctic", "coffee", "cosmic", "cyberpunk", "forest", "synthwave", "toxic"];
 </script>
 <div class="font-mono antialised" style="color:  var(--color-text-base)">
@@ -75,8 +75,129 @@ Usage: theme [args]
 - forest
 - synthwave
 - toxic</pre>
-  {:else if themes.includes(command.split(" ")[1])}
+  {:else if themes.includes(`{command} `.split(" ")[1])}
         <pre>Theme successfully changed to {command.split(" ")[1]}</pre>
+  {:else if command === 1}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 2}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 3}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 4}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 5}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+5. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 6}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+6. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 7}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+7. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 8}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+8. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 9}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+9. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 10}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+10. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
+  {:else if command === 11}
+        <img src="" alt="">
+        <p class="w-[100ch] text-justify indent-[4ch]">
+11. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a metus purus. Mauris nec mi eu arcu sodales egestas
+semper id risus. Quisque ante ipsum, varius sed est quis, congue tempus elit. Praesent ac maximus nunc. Nullam
+tincidunt consectetur maximus. Morbi volutpat mattis interdum. Nullam mollis ex eget dolor elementum, sed consectetur
+ligula rutrum. Etiam molestie congue consequat. Pellentesque habitant morbi tristique senectus et netus et malesuada\
+fames ac turpis egestas. Nullam tincidunt erat id congue finibus. Quisque vitae tellus iaculis, vehicula nibh ut,
+malesuada ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed
+volutpat augue, mollis viverra nisl. In nec mi in mi commodo blandit. 
+</p>
     {:else if command === "about"}
         <pre>
     ████████╗██╗  ██╗███████╗     █████╗ ██████╗ ████████╗    

@@ -1,7 +1,7 @@
 <script lang="ts">
     let input: any;
     let name: string = $state("guest");
-    let { termBlocks = $bindable(), command = $bindable(), isDone = $bindable(), onThemeChange} = $props();
+    let { termBlocks = $bindable(), command = $bindable(), isDone = $bindable(), onThemeChange, collProg = $bindable()} = $props();
 
     function setFocus() {
         input.focus();
@@ -28,6 +28,14 @@
                 onThemeChange(textArr[1])
             }
         }
+        if (text === "next" && collProg < 11) {
+            collProg++
+            text = collProg 
+        } 
+        if (text === "prev" && collProg > 0) {
+            collProg--
+            text = collProg 
+        } 
         termBlocks.push({type: "response", command: text});
         isDone = true;
         termBlocks.push({type: "prompt", command: "", isDone:false});
