@@ -27,13 +27,21 @@
         {type: "prompt", command: "", isDone:false}
     ])
 </script>
-<div id="bg-container" class="h-screen w-screen flex items-center justify-center p-8" style="background-color: var(--color-bg-primary)">
+<div id="bg-container" 
+class="h-screen w-screen flex items-center justify-center p-8 overflow-y-auto
+  [&::-webkit-scrollbar]:w-2
+  [&::-webkit-scrollbar-track]:rounded-full
+  [&::-webkit-scrollbar-track]:bg-gray-100
+  [&::-webkit-scrollbar-thumb]:rounded-full
+  [&::-webkit-scrollbar-thumb]:bg-gray-300
+  dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+  dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
     <div id="term-interface" class="block w-full h-full border-2 rounded-xl box-border p-5 overflow-auto scroll-smooth" style="border-color: var(--color-secondary)">
         {#each termBlocks as block}
             {#if block.type === "prompt"}
-                <ShellPrompt bind:termBlocks={termBlocks} command={block.command} isDone={block.isDone} onThemeChange={handleThemeChange} />
+                <ShellPrompt bind:termBlocks={termBlocks} command={block.command} isDone={block.isDone} onThemeChange={handleThemeChange}/>
             {:else if block.type === "response"}
-                <ShellResponse command={block.command}/>
+                <ShellResponse command={block.command} />
             {/if}
         {/each}
     </div>
