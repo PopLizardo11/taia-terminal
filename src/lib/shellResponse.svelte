@@ -16,7 +16,6 @@ System:
 Navigation:
   next
   prev
-  all
 
 Customization:
   theme
@@ -181,11 +180,11 @@ This terminal app serves as the home for The Art in AI Art, a small curatorial e
 
 </pre>
 <pre>
-https://www.facebook.com/ManilaStandardPH/posts/opinionaited-august-2-2025-dangerous-crestsprompt-generate-a-political-cartoon-i/1195403229298618/
+“A.I. God. Portrait of Alan Turing | Digital Art Day Auction | Contemporary NFT | Sotheby’s.” Sotheby’s, www.sothebys.com/en/buy/auction/2024/digital-art-day-auction-2/a-i-god-portrait-of-alan-turing.
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FChatGPT%2Fcomments%2F171phbq%2Fpeople_really_hate_on_ai_art%2F&psig=AOvVaw33qp60HiXuzb798PUJZoJc&ust=1764860188278000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCPCi5NbWoZEDFQAAAAAdAAAAABAE
+Manila Bulletin. “Dangerous crests.” Facebook.com, Aug. 2025, www.facebook.com/ManilaStandardPH/posts/opinionaited-august-2-2025-dangerous-crestsprompt-generate-a-political-cartoon-i/1195403229298618. Accessed 3 Dec. 2025.
 
-https://www.sothebys.com/en/buy/auction/2024/digital-art-day-auction-2/a-i-god-portrait-of-alan-turing 
+UnionPacifik. “People really hate on AI art.” Reddit.com, 2023, www.reddit.com/r/ChatGPT/comments/171phbq/people_really_hate_on_ai_art. Accessed 3 Dec. 2025.
 </pre>
 <br>
 {:else}
