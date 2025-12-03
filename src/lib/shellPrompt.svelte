@@ -28,7 +28,7 @@
                 onThemeChange(textArr[1])
             }
         }
-        if (text === "next" && collProg < 11) {
+        if (text === "next" && collProg < 8) {
             collProg++
             text = collProg 
         } 
@@ -36,6 +36,36 @@
             collProg--
             text = collProg 
         } 
+                switch(collProg) {
+            case 0:
+                onThemeChange("default")
+                break;
+            case 1:
+                onThemeChange("coffee")
+                break;
+            case 2: 
+                onThemeChange("arctic")
+                break;
+            case 3: 
+                onThemeChange("synthwave")
+                break; 
+            case 4: 
+                onThemeChange("cosmic")
+                break;
+            case 5: 
+                onThemeChange("forest")
+                break;
+            case 6: 
+                onThemeChange("cyberpunk")
+                break;
+            case 7: 
+                onThemeChange("abyss")
+                break;
+            case 8: 
+                onThemeChange("amber")
+                break;
+        }
+
         termBlocks.push({type: "response", command: text});
         isDone = true;
         termBlocks.push({type: "prompt", command: "", isDone:false});
