@@ -93,7 +93,7 @@ Type 'next' to proceed through the collection.</pre>
   {:else if command === 1}
   <div class="block-con">
           <div class="img-con">
-            <img src="src/lib/assets/imgs /img1.jpg" alt="" id="img1">
+            <img src="https://i.redd.it/tzzive0upnsb1.jpg" alt="" id="img1">
           </div>
           <p class="w-[100ch] text-justify indent-[4ch]">
   <i>What is art?</i> This already blurry line has become more blurred out with the rise of generative artificial intelligence where “creativity” from a machine can match those of a human. The piece above was intended to serve as a reminder that even with the seemingly increasing number of machine made art, it is still noteworthy to remember the importance of the human spirit that is embedded in the art we create.  Ironically, just like how the message is held by a robot in the image, the artwork itself is AI Generated. Its self-contradicting nature mirrors the tension society is currently experiencing as we rethink what AI-made art really means. 
@@ -120,7 +120,7 @@ This is an AI rendition of the song "Five Nights at Freddy's" as how it would be
 </p>
   {:else if command === 5}
       <div id="img-con5">
-        <img src="src/lib/assets/imgs /img5.jpg" alt="">
+        <img src="https://sothebys-md.brightspotcdn.com/dims4/default/576b412/2147483647/strip/true/crop/1026x1444+0+0/resize/4096x5765!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F34%2Fac%2F15f9b1224dfb8e5044aa095af182%2Fnfn112-xxxxx-cs-cropped.jpg" alt="">
       </div>
         <p class="w-[100ch] text-justify indent-[4ch]">
 "AI God: Portrait of Alan Turing" is an AI robot's painting of one of computer science's important figures that has been sold for $1.08 million becoming to what has yet to be the most valuable AI made art. The person painted, Alan Turing, laid the foundations for the development of early computers which in return helped to go to what we have today in the form of artificial intelligence. The portrait can be seen as a creation's homage to its old long gone creator grateful to what it has become today. The piece is also one the major leaps of AI art as it penetrates the field of high art, a space long defined by exclusivity, tradition, and human craft. Its acceptance in the "elite level" could be attributed to the increasing number of young collectors which are more familiar and open to the technology, another effect of the everchanging elements of art circulation. 
@@ -132,7 +132,7 @@ The ability of artificial intelligence to generate fast, quality visuals in mass
 </p>
   {:else if command === 7}
       <div id="img-con10">
-        <img src="src/lib/assets/imgs /img9.jpg" alt="">
+        <img src="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/526567635_1195403142631960_1125685597945235677_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHOWxkOxOBILN986IPbHKYiij4lqCNKuK6KPiWoI0q4rj7nUeVkFbzeg6XaLcOUAbO3E-vYzDeF3uFT0c04ppKE&_nc_ohc=APU29K1mExsQ7kNvwEHwjwf&_nc_oc=Adm1noRrAwsO4LgU9Zhw_a_92TwCcCiVKnaxYG4ZVlzSOcLsLrb-buJSugCf6QD97Lk&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=NYpz51xab99TdQy6sC8bug&oh=00_Afk9WisS-QuOZPq4_JbadTfzw4I_Yd1DU3RnbPcBVvIdpA&oe=693663B7" alt="">
       </div>
         <p class="w-[100ch] text-justify indent-[4ch]">
 The political nature of art is one of its most interesting characteristics as it shows that it has real bearing on real-world events and does not exist solely for the purpose of just being an art. Above is an AI generated editorial cartoon posted by Manila Bulletin in their facebook page which received a lack of backlash from the internet. Even though the reasons for criticisms are valid mostly talking about the livelihood of editorial cartoonist and effect of AI on climate change, the hate on AI Art has led for the message of the editorial cartoon to be lost. 

@@ -23,11 +23,6 @@
             termBlocks.push = termBlocks.push({type: "prompt", command: "", isDone:false});
             return
         }
-        if (textArr[0] === "theme" && textArr.length == 2) {
-            if (textArr[1] !== "ls" && themes.includes(textArr[1])) {
-                onThemeChange(textArr[1])
-            }
-        }
         if (text === "next" && collProg < 8) {
             collProg++
             text = collProg 
@@ -65,7 +60,10 @@
                 onThemeChange("amber")
                 break;
         }
-
+        if (textArr[0] === "theme" && textArr.length == 2) {
+            if (textArr[1] !== "ls" && themes.includes(textArr[1])) {
+                onThemeChange(textArr[1])
+        }}
         termBlocks.push({type: "response", command: text});
         isDone = true;
         termBlocks.push({type: "prompt", command: "", isDone:false});
