@@ -132,7 +132,7 @@ The ability of artificial intelligence to generate fast, quality visuals in mass
 </p>
   {:else if command === 7}
       <div id="img-con10">
-        <img src="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/526567635_1195403142631960_1125685597945235677_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHOWxkOxOBILN986IPbHKYiij4lqCNKuK6KPiWoI0q4rj7nUeVkFbzeg6XaLcOUAbO3E-vYzDeF3uFT0c04ppKE&_nc_ohc=APU29K1mExsQ7kNvwEHwjwf&_nc_oc=Adm1noRrAwsO4LgU9Zhw_a_92TwCcCiVKnaxYG4ZVlzSOcLsLrb-buJSugCf6QD97Lk&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=NYpz51xab99TdQy6sC8bug&oh=00_Afk9WisS-QuOZPq4_JbadTfzw4I_Yd1DU3RnbPcBVvIdpA&oe=693663B7" alt="">
+        <img src="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/526567635_1195403142631960_1125685597945235677_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=100&ccb=1-7&_nc_sid=f727a1&_nc_eui2=AeHOWxkOxOBILN986IPbHKYiij4lqCNKuK6KPiWoI0q4rj7nUeVkFbzeg6XaLcOUAbO3E-vYzDeF3uFT0c04ppKE&_nc_ohc=HvPauRn_imsQ7kNvwF_eYz1&_nc_oc=Adm1FZF8x1lDiI5pLVXyl95DnUDy3gv0z7uJ2rsW6JikpyyPiNLWPl2peXjHJlskVK4&_nc_zt=23&_nc_ht=scontent-mnl1-2.xx&_nc_gid=OJKDxCoURvPzWNRiiNnwrg&oh=00_AfneUNBKvFY1ZV7jmdV761U7r5K8C-hEmH1YSF8puAFVyA&oe=693C8AB7" alt="">
       </div>
         <p class="w-[100ch] text-justify indent-[4ch]">
 The political nature of art is one of its most interesting characteristics as it shows that it has real bearing on real-world events and does not exist solely for the purpose of just being an art. Above is an AI generated editorial cartoon posted by Manila Bulletin in their facebook page which received a lack of backlash from the internet. Even though the reasons for criticisms are valid mostly talking about the livelihood of editorial cartoonist and effect of AI on climate change, the hate on AI Art has led for the message of the editorial cartoon to be lost. 
@@ -162,6 +162,8 @@ AI art has proven to be one of the most difficult challenges present in the curr
 This terminal app serves as the home for The Art in AI Art, a small curatorial exhibition presented through a stripped-down, code-driven interface. Instead of the usual gallery walls, everything unfolds in a command-line space—letting the ideas behind each piece stand on their own, without polish or pretense. It’s a quieter, more deliberate way to explore how AI-generated images fit into the wider conversation about creativity, authorship, and what we choose to call art. ^^
 </p>
 <br>
+    {:else if command === "repo"}
+<a href="https://github.com/PopLizardo11/taia-terminal">https://github.com/PopLizardo11/taia-terminal</a>
     {:else if command === "refs"}
 <pre>
     ████████╗██╗  ██╗███████╗     █████╗ ██████╗ ████████╗    
@@ -180,11 +182,26 @@ This terminal app serves as the home for The Art in AI Art, a small curatorial e
 
 </pre>
 <pre>
-“A.I. God. Portrait of Alan Turing | Digital Art Day Auction | Contemporary NFT | Sotheby’s.” Sotheby’s, www.sothebys.com/en/buy/auction/2024/digital-art-day-auction-2/a-i-god-portrait-of-alan-turing.
+<b class="text-lg">References:</b>
 
-Manila Bulletin. “Dangerous crests.” Facebook.com, Aug. 2025, www.facebook.com/ManilaStandardPH/posts/opinionaited-august-2-2025-dangerous-crestsprompt-generate-a-political-cartoon-i/1195403229298618. Accessed 3 Dec. 2025.
+“A.I. God. Portrait of Alan Turing | Digital Art Day Auction | Contemporary NFT |
+     Sotheby’s.” Sotheby’s, www.sothebys.com/en/buy/auction/2024/digital-art-day-auction-2/a-i-god-portrait-of-alan-turing.
 
-UnionPacifik. “People really hate on AI art.” Reddit.com, 2023, www.reddit.com/r/ChatGPT/comments/171phbq/people_really_hate_on_ai_art. Accessed 3 Dec. 2025.
+Manila Bulletin. “Dangerous crests.” Facebook.com, Aug. 2025, www.facebook.com/ManilaStandardPH/posts 
+    opinionaited-august-2-2025-dangerous-crestsprompt-generate-a-political-cartoon-i/1195403229298618. Accessed 3 Dec. 2025.
+
+Nazar’s Memes. “Tralalero Tralala Vs Bombardino Crocodilo BATTLE ALL FIGHTS.” YouTube, 29 Mar. 2025, 
+    www.youtube.com/watch?v=gYbFUM6gB7Q.
+
+Nouvelle Story. “Nouvelle Story - She Said I’m Gloomy 「Remastered」.” YouTube, 22 Nov. 2024, 
+    www.youtube.com/watch?v=cZiEtknJ5KE.
+
+NutriAsia. “Step Into the World of Chingu Cafe.” YouTube, 3 June 2025, www.youtube.com/watch?v=wY_K5El781E.
+
+Ponemos Z. “Frank Sinatra (A.I Cover) - ‘Five Nights at Freddy’s.’” YouTube, 5 July 2023, www.youtube.com/watch?v=E5h2kta9EE8.
+
+UnionPacifik. “People really hate on AI art.” Reddit.com, 2023, 
+    www.reddit.com/r/ChatGPT/comments/171phbq/people_really_hate_on_ai_art. Accessed 3 Dec. 2025.
 </pre>
 <br>
 {:else}
