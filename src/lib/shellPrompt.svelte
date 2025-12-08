@@ -31,35 +31,38 @@
             collProg--
             text = collProg 
         } 
-                switch(collProg) {
-            case 0:
-                onThemeChange("default")
-                break;
-            case 1:
-                onThemeChange("coffee")
-                break;
-            case 2: 
-                onThemeChange("arctic")
-                break;
-            case 3: 
-                onThemeChange("synthwave")
-                break; 
-            case 4: 
-                onThemeChange("cosmic")
-                break;
-            case 5: 
-                onThemeChange("forest")
-                break;
-            case 6: 
-                onThemeChange("cyberpunk")
-                break;
-            case 7: 
-                onThemeChange("abyss")
-                break;
-            case 8: 
-                onThemeChange("amber")
-                break;
+        if (text === collProg) {
+            switch(collProg) {
+                case 0:
+                    onThemeChange("default")
+                    break;
+                case 1:
+                    onThemeChange("coffee")
+                    break;
+                case 2: 
+                    onThemeChange("arctic")
+                    break;
+                case 3: 
+                    onThemeChange("synthwave")
+                    break; 
+                case 4: 
+                    onThemeChange("cosmic")
+                    break;
+                case 5: 
+                    onThemeChange("forest")
+                    break;
+                case 6: 
+                    onThemeChange("cyberpunk")
+                    break;
+                case 7: 
+                    onThemeChange("abyss")
+                    break;
+                case 8: 
+                    onThemeChange("amber")
+                    break;
+            }
         }
+
         if (textArr[0] === "theme" && textArr.length == 2) {
             if (textArr[1] !== "ls" && themes.includes(textArr[1])) {
                 onThemeChange(textArr[1])
