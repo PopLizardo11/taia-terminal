@@ -159,7 +159,10 @@ AI art has proven to be one of the most difficult challenges present in the curr
 
 </pre>
 <p class="w-[100ch] text-justify indent-[4ch]">
-This terminal app serves as the home for The Art in AI Art, a small curatorial exhibition presented through a stripped-down, code-driven interface. Instead of the usual gallery walls, everything unfolds in a command-line space—letting the ideas behind each piece stand on their own, without polish or pretense. It’s a quieter, more deliberate way to explore how AI-generated images fit into the wider conversation about creativity, authorship, and what we choose to call art. ^^
+This terminal app serves as the home for The Art in AI Art, a small curatorial exhibition presented through a stripped-down, code-driven interface. Instead of the usual gallery walls, everything is in a command-line space letting the ideas behind each piece be revealed as if the computer itself is delivering it. The design on the website is greatly inspired on the M4TT72 terminal styled website by 
+m4tt72 which is unfortunately currently down due to an unknown problem. 
+<br><br>
+You can check it out currently on its repository/codebase <a href="https://github.com/m4tt72/terminal" class="underline">here</a> ^^
 </p>
 <br>
     {:else if command === "repo"}
